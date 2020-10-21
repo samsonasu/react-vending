@@ -1,6 +1,9 @@
 # TIMESTAMPS
 
-27m - milestone 1
+27m - Milestone 1
+49m - Milestone 2
+73m - Milestone 3
+83m - Milestone 4
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
