@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  color: #777;
+}
+
+.App-logo {
+  height: 200px;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #fff;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #444;
+}
+
+.total {
+  font-size: 32px;
+}
+
+.error {
+  color: red;
+  margin-bottom: 32px;
+  font-size: 24px;
+}
+
+.success {
+  color: green;
+  margin-bottom: 32px;
+  font-size: 24px;
+}
+
+.sodaButtons {
+  overflow: hidden;
+  width: 800px;
+  margin: 0 auto 32px auto;
+}
+
+.sodaButton {
+  float: left;
+  padding: 32px;
+  width: 150px;
+  box-shadow: 5px 5px #888;
+  border: 1px solid #ccc;
+  margin: 16px;
+  img {
+    max-height: 150px;
+  }
+  button {
+    margin-top: 8px;
+  }
+  &.chosen {
+    border-color: green;
+    border-width: 5px;
+    box-shadow: 5px 5px green;
+  }
+}
